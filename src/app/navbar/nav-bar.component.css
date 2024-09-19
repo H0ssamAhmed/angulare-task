@@ -1,6 +1,10 @@
 .custom-navbar {
-  background-color: #333;
+  background-color: #022828;
   color: #fff;
+}
+
+.navbar-brand {
+  color: white;
 }
 
 .nav-link {
@@ -10,11 +14,11 @@
 }
 
 .nav-link:hover {
-  color: #ffa500 !important;
+  color: orange !important;
 }
 
 .navbar-toggler {
-  border-color: #ffa500;
+  border-color: orange;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -33,12 +37,14 @@
 }
 
 .cart-text {
-  font-size: 1.2rem; /* Adjust size as needed */
-  margin-right: 8px; /* Space between icon and counter */
+  font-size: 1.2rem;
+  /* Adjust size as needed */
+  margin-right: 8px;
+  /* Space between icon and counter */
 }
 
 .cart-badge {
-  background-color: #ffa500;
+  background-color: orange;
   color: #fff;
   font-size: 12px;
   width: 24px;
@@ -47,10 +53,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 8px; /* Space between icon and counter */
+  margin-left: 8px;
+  /* Space between icon and counter */
 }
 
 .active {
-  color: #ffa500 !important;
+  color: orange !important;
   font-weight: bold;
 }

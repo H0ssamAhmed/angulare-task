@@ -1,12 +1,13 @@
 .product-card {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   overflow: hidden;
   background-color: #fff;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
 }
 
 .product-card:hover {
@@ -31,6 +32,9 @@
 }
 
 .stock-badge {
+  top: 1rem;
+  left: 1rem;
+  position: absolute;
   display: inline-block;
   padding: 8px 12px;
   border-radius: 20px;
@@ -68,18 +72,16 @@
   width: 20px;
   height: 20px;
   background-color: #e0e0e0;
-  clip-path: polygon(
-    50% 0%,
-    61% 35%,
-    98% 35%,
-    68% 57%,
-    79% 91%,
-    50% 70%,
-    21% 91%,
-    32% 57%,
-    2% 35%,
-    39% 35%
-  );
+  clip-path: polygon(50% 0%,
+      61% 35%,
+      98% 35%,
+      68% 57%,
+      79% 91%,
+      50% 70%,
+      21% 91%,
+      32% 57%,
+      2% 35%,
+      39% 35%);
 }
 
 .filled {
@@ -92,15 +94,15 @@
 
 .action-buttons {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: center;
+  gap: 40px;
   margin-top: 10px;
 }
 
 .action-btn,
 .details-btn {
-  padding: 10px;
-  border-radius: 20px;
+  padding: 5px;
+  border-radius: 10px;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -110,17 +112,17 @@
 }
 
 .action-btn {
-  background-color: #ff5722;
+  background-color: #009688;
 }
 
 .details-btn {
-  background-color: #2196f3;
+  background-color: #607d8b;
 }
 
 .action-btn:hover {
-  background-color: #e64a19;
+  background-color: #036359;
 }
 
 .details-btn:hover {
-  background-color: #1976d2;
+  background-color: #354a55;
 }
