@@ -1,6 +1,8 @@
 .custom-navbar {
   background-color: #022828;
   color: #fff;
+  border-radius: 20px;
+  margin-top: 1rem;
 }
 
 .navbar-brand {
@@ -14,11 +16,11 @@
 }
 
 .nav-link:hover {
-  color: orange !important;
+  color: burlywood !important;
 }
 
 .navbar-toggler {
-  border-color: orange;
+  border-color: burlywood;
 }
 
 .custom-toggler .navbar-toggler-icon {
@@ -44,7 +46,7 @@
 }
 
 .cart-badge {
-  background-color: orange;
+  background-color: burlywood;
   color: #fff;
   font-size: 12px;
   width: 24px;
@@ -58,6 +60,6 @@
 }
 
 .active {
-  color: orange !important;
+  color: burlywood !important;
   font-weight: bold;
 }
